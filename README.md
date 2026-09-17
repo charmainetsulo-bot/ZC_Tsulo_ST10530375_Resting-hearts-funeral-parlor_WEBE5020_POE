@@ -88,7 +88,7 @@ Home
 | --- | --- | --- |
 | 10/08/2026 | v1.o | Initial repository setup, added folder structure |
 | 12/08/2026 | v1.1 | added index.html and basic navigation |
-| 14/08/2026 | v1.2 | added abput_Us.html and enquiry.html |
+| 14/08/2026 | v1.2 | added about_Us.html and enquiry.html |
 | 25/08/2026 | v1.3 | added initial style.css |
 | 31/08/2026 | v1.4 | updated style.css to better design website |
 | 16/09/2026 | v1.5 | added breakpoints to CSS design |
