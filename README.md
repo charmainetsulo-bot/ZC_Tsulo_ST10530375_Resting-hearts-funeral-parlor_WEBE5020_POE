@@ -62,5 +62,8 @@ form within 30 seconds during usability testing.
 ## Part 1 Details
 
 * I made my funeral parlors website
-* 
+
+## Part 2 Details
+* did update
+- 
  
