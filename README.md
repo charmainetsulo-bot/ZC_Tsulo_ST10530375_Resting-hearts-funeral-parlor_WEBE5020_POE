@@ -62,8 +62,38 @@ form within 30 seconds during usability testing.
 ## Part 1 Details
 
 * I made my funeral parlors website
+* I completed my index.html, about_Us.html, enquiry.html, services.html, products.html
 
 ## Part 2 Details
 * did update
-- 
+- I linked my CSS that I created to all html pages
+- I updated my html code to use semantic html
+- I updated my html pages to work based on my part 1 feedback
+- I updated code to be responsive
+
+  ## Sitemap
+
+. Resting Hearts Funeral parlor
+Home
+│
+├── About Us
+├── Services
+├── Enquiry
+└── Contact
+
+
+## Changelog
+
+| Date | Version | Change Description |
+| --- | --- | --- |
+| 10/08/2026 | v1.o | Initial repository setup, added folder structure |
+| 12/08/2026 | v1.1 | added index.html and basic navigation |
+| 14/08/2026 | v1.2 | added abput_Us.html and enquiry.html |
+| 25/08/2026 | v1.3 | added initial style.css |
+| 31/08/2026 | v1.4 | updated style.css to better design website |
+| 16/09/2026 | v1.5 | added breakpoints to CSS design |
+  
+
+  
+  
  
