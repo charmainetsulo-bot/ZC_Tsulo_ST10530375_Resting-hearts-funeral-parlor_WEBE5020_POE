@@ -72,10 +72,11 @@ form within 30 seconds during usability testing.
 - I updated code to be responsive
 
   ## Part 3 Details
-  -Added Java Script read more
-  -Added text and images to be available and easily accessibly
-  -Added meta description
-  -Added JavaScript
+  *Did update
+  - Added Java Script read more
+  - Added text and images to be available and easily accessibly
+  - Added meta description
+  - Added JavaScript
 
   ## Sitemap
 
