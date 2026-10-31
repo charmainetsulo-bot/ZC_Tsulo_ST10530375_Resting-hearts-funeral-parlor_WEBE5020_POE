@@ -1,10 +1,12 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products - Resting Hearts Funeral Parlour</title>
+    <meta name="description" content="Resting Hearts Funeral Parlour - caring funeral dignity with dignity">
+    <link rel="icon" href="images/OIP.webp" type="image/webp">
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 
@@ -26,7 +28,10 @@
     </header>
 
     <!-- Main content -->
-    <main>
+
+
+
+    <>
 
         <h2>Our Products</h2>
 
@@ -37,7 +42,9 @@
         </p>
 
         <h3>Coffins</h3>
+        <div id="gallery">
         <img src="images/IMG_3959_113fa66d-4c82-441a-b0fd-8ed6209342f6.jpg" alt="coffin" width="180" height="130">
+        </div>
 
         <p>
             We provide different types of coffins for families
@@ -45,7 +52,9 @@
         </p>
 
         <h3>Caskets</h3>
+        <div id="gallery">
         <img src="images/JZA7479.webp" alt="caskets" width="180" height="130">
+        </div>
 
         <p>
             We provide caskets in different styles and designs
@@ -53,7 +62,10 @@
         </p>
 
         <h3>Funeral Flowers</h3>
+        <div id="gallery">
         <img src="images/OIP.webp" alt="Flowers">
+        </div>
+        
 
         <p>
             Funeral flowers can be used to show respect and
@@ -75,7 +87,9 @@
         </p>
 
         <h3>Funeral Cars</h3>
+        <div id="gallery">
         <img src="images/silver-cars-norwich-hearse.jpeg" alt=" Cars" width="180" height="130">
+        </div>
 
         <p>
             We provide funeral vehicles to assist with the
@@ -97,14 +111,20 @@
 
         <a href="enquiry.html">Make an Enquiry</a>
 
+        <div id="lightbox" style="display: none; position: fixed; top: 0%; left: 100%; background-color: rgb(0,0,0,0.8); justify-content: center; align-items: center;">
+            <img id="lightboxImg" src="" style="max-width: 90%;">
+        </div>
+
     </main>
 
     <!-- Footer -->
     <footer>
         <p>
-            &copy; 2026 Resting Hearts Funeral Parlour
+            &copy; <span id="year"></span> Resting Hearts Funeral Parlour
         </p>
     </footer>
+
+    <script src="JS/Main.JS"></script>
 
 </body>
 
