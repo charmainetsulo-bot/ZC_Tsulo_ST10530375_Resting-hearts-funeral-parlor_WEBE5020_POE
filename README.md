@@ -54,10 +54,10 @@ form within 30 seconds during usability testing.
 |--- | --- | ---|
 | planning and wireframing | 05/08/2026 | Complete |
 | part 1: sumit proposal and semantic HTML structure | 14/08/2026 | complete |
-| adding external CSS Styling and mobile responsiveness to website | 16/09/2026 | ongoing |
-| part2: Submit CSS and responsiveness to website | 18/09/2026 | Planned |
-| adding JavaScript and interactivity | TBC | Planned |
-| Part 3: Final Testing and Submission | TBC | Planned | 
+| adding external CSS Styling and mobile responsiveness to website | 16/09/2026 | complete |
+| part2: Submit CSS and responsiveness to website | 18/09/2026 | complete |
+| adding JavaScript and interactivity | 26/10/2026 | complete |
+| Part 3: Final Testing and Submission | 30/10/2026 | complete | 
 
 ## Part 1 Details
 
@@ -70,6 +70,12 @@ form within 30 seconds during usability testing.
 - I updated my html code to use semantic html
 - I updated my html pages to work based on my part 1 feedback
 - I updated code to be responsive
+
+  ## Part 3 Details
+  -Added Java Script read more
+  -Added text and images to be available and easily accessibly
+  -Added meta description
+  -Added JavaScript
 
   ## Sitemap
 
@@ -92,6 +98,9 @@ Home
 | 25/08/2026 | v1.3 | added initial style.css |
 | 31/08/2026 | v1.4 | updated style.css to better design website |
 | 16/09/2026 | v1.5 | added breakpoints to CSS design |
+| 26/10/2026 | v1.6 | created JS |
+| 28/10/2026 | v1.7 | added meta description |
+| 30/10/2026 | v1.8 | added read more |
   
 
   
