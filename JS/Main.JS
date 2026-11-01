@@ -64,7 +64,46 @@ if (form && formMessage) {
 
 }
 
-});
+})
+
+function openLightbox(src){
+    document.getElementById("Lightbox").style.display = "flex";
+    document.getElementById("LightboxImg").src = src;
+}
+
+function closeLightbox() {
+    document.getElementById("Lightbox").style.display = "none";
+}
+
+var products = [
+    { name: "casket", price: "R4000", img: "images/JZA7479.webp"},
+    { name: "coffin", price: "R7500", img: "images/IMG_3959_113fa66d-4c82-441a-b0fd-8ed6209342f6.jpg"},
+    { name: "flowers", price: "R750", img: "images/OIP.webp"},
+    { name: "cars", price: "R7000-R8000", img: "images/silver-cars-norwich-hearse.jpeg"},
+];
+
+function loadProducts(){
+    var container = document.getElementById("productList");
+    if (!container) return;
+    for (var i = 0; i< products.length; i++) {
+        var p = products[i];
+        
+        var div = document.createElement("div");
+        var img = document.createElement("img");
+        img.src = p.img;
+        var h3 = document.createElement("h3");
+        h3.textContent = p.name;
+        var para = document.createElement("p");
+        para.textContent = p.price;
+
+        div.appendChild(img);
+        div.appendChild(h3);
+        div.appendChild(para);
+        container.appendChild(div);
+    }
+}
+
+
     
 
 
